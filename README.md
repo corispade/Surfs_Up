@@ -2,10 +2,10 @@
 
 # Overview
 
-We are looking to open a surf shop and ice cream shop in Oahu, Hawaii. We are finding the temperature data for the months of June and December in Oahu, in order to determine if the surf and ice cream shop business is sustainable year-round.
+We are looking to open a surf and ice cream shop in Oahu, Hawaii. We are finding the temperature data for the months of June and December in Oahu, in order to determine if the surf and ice cream shop business is sustainable year-round.
 
 ## Process:
-
+Please find analysis [here](https://github.com/corispade/Surfs_Up/blob/main/SurfsUp_Challenge.ipynb) to reference for the below deliverables.
 
 ### Deliverable 1 - Determine the Summary Statistics for June
 * A query is written to retrieve all the June temperatures from the Date column in the Measurement table from the hawaii.sqlite database
@@ -31,6 +31,15 @@ Dependencies: Pandas, Numpy, SQLAlchemy
 # Results:
 
 There is a bulleted list that addresses the three key differences in weather between June and December
+
+June and December Summary Statistics: 
+![june](https://github.com/corispade/Surfs_Up/blob/main/Resources/june_temps.png) ![december](https://github.com/corispade/Surfs_Up/blob/main/Resources/december_temps.png)
+
+
+Please note the below differences from the above charts:
+* 
+* 
+* 
 
 # Summary:
 
