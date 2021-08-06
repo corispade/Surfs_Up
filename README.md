@@ -20,7 +20,7 @@ Please reference the analysis [here](https://github.com/corispade/Surfs_Up/blob/
 * Generate summary statistics chart for the December temperatures
 
 ## Resources:
-Data Source: hawaii.sqlite
+Data Source: [hawaii.sqlite](https://github.com/corispade/Surfs_Up/blob/main/hawaii.sqlite)
 
 Software: Python 3.7.6, Conda 4.10.1
 
