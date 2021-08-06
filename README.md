@@ -5,7 +5,7 @@
 We are looking to open a surf and ice cream shop in Oahu, Hawaii. We are finding the temperature data for the months of June and December in Oahu, in order to determine if the surf and ice cream shop business is sustainable year-round.
 
 ## Process:
-Please find the analysis code [here](https://github.com/corispade/Surfs_Up/blob/main/SurfsUp_Challenge.ipynb) to reference for the below deliverables.
+Please reference the analysis [here](https://github.com/corispade/Surfs_Up/blob/main/SurfsUp_Challenge.ipynb) for the below deliverables.
 
 ### Deliverable 1 - Determine the Summary Statistics for June
 * A query is written to retrieve all the June temperatures from the Date column in the Measurement table from the hawaii.sqlite database
@@ -30,8 +30,6 @@ Dependencies: Pandas, Numpy, SQLAlchemy
 
 # Results:
 
-There is a bulleted list that addresses the three key differences in weather between June and December
-
 June and December Summary Statistics: 
 
 ![june](https://github.com/corispade/Surfs_Up/blob/main/Resources/june_temps.png) ![december](https://github.com/corispade/Surfs_Up/blob/main/Resources/december_temps.png)
@@ -44,9 +42,9 @@ Based on the Summary Statistics charts for the months of June and December, plea
 
 # Summary:
 
-Based on the above summary statistics charts, the temperature remains very steady year-round. This is good new for our business plan, but we should not be using temperature data as our only measurement for the success of this surf and ice cream shop. There are many other factors that determine the success of our shop. For example, the shop location will be determined based on weather data, beach popularity, and cost of real estate. 
+Based on the above summary statistics charts, the temperature remains very steady year-round. This is good news for our business plan, but we should not be using temperature data as our only measurement for the success of this surf and ice cream shop. There are many other factors that determine the success of our shop. For example, the shop location will be determined based on weather data, beach popularity, and cost of real estate. 
 
-1. Weather Data: We need to look at further data in regards to the chance of precipitation as well as the chance of storms. When is the storm season and how will it affect our sales? We need to analyze this data so that we can offset the storm season losses with the busy season.
+1. Weather Data: We need to look further into the data regarding the chance of precipitation and the chance of storms. When is the storm season and how will it affect our sales? We need to analyze this data so that we can offset the losses during the storm season with the gains during the busy season.
 
 2. Beach Popularity: We need to find data on which beaches are the most popular and analyze where is the best location to place our store based on beach popularity. 
 
