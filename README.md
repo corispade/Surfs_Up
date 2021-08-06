@@ -5,7 +5,7 @@
 We are looking to open a surf and ice cream shop in Oahu, Hawaii. We are finding the temperature data for the months of June and December in Oahu, in order to determine if the surf and ice cream shop business is sustainable year-round.
 
 ## Process:
-Please find analysis [here](https://github.com/corispade/Surfs_Up/blob/main/SurfsUp_Challenge.ipynb) to reference for the below deliverables.
+Please find the analysis code [here](https://github.com/corispade/Surfs_Up/blob/main/SurfsUp_Challenge.ipynb) to reference for the below deliverables.
 
 ### Deliverable 1 - Determine the Summary Statistics for June
 * A query is written to retrieve all the June temperatures from the Date column in the Measurement table from the hawaii.sqlite database
@@ -33,18 +33,21 @@ Dependencies: Pandas, Numpy, SQLAlchemy
 There is a bulleted list that addresses the three key differences in weather between June and December
 
 June and December Summary Statistics: 
+
 ![june](https://github.com/corispade/Surfs_Up/blob/main/Resources/june_temps.png) ![december](https://github.com/corispade/Surfs_Up/blob/main/Resources/december_temps.png)
 
 
-Please note the below differences from the above charts:
-* 
-* 
-* 
+Based on the Summary Statistics charts for the months of June and December, please note the below temperature differences:
+* The average temperature is only about 4 degrees higher in June than in December
+* The maximum temperature is only 2 degrees higher in June than in December
+* The minimum temperature is 8 degrees higher in June than in December
 
 # Summary:
 
-There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December.
+Based on the above summary statistics charts, the temperature remains very steady year-round. This is good new for our business plan, but we should not be using temperature data as our only measurement for the success of this surf and ice cream shop. There are many other factors that determine the success of our shop. For example, the shop location will be determined based on weather data, beach popularity, and cost of real estate. 
 
-1. View precipitation data. Show graphs.
+1. Weather Data: We need to look at further data in regards to the chance of precipitation as well as the chance of storms. When is the storm season and how will it affect our sales? We need to analyze this data so that we can offset the storm season losses with the busy season.
 
-2. Look at station data for station closest to Oahu location to determine best area in Oahu to plant the shop.
+2. Beach Popularity: We need to find data on which beaches are the most popular and analyze where is the best location to place our store based on beach popularity. 
+
+3. Cost of Real Estate: The cost of real estate in Hawaii is high. How do we determine the best location so that we are not losing money on overhead? We need to do further queries to analyze the cost of rent to pick the best location. 
